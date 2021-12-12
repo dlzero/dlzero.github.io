@@ -22,10 +22,12 @@ paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
 
+remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-remote-theme
 
 # Sidebar link settings
 sidebar_home_link:  true
